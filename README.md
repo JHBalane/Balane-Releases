@@ -14,7 +14,9 @@ Ein Release pro App und Version, Tag mit App-Präfix:
 
 | Tag | App | Assets |
 | --- | --- | --- |
+| `flowvisual-v1.0.1` | FlowVisual | `FlowVisual-1.0.1.dmg` (macOS), `FlowVisual-Setup-1.0.1.exe` (Windows) |
 | `flowvisual-v1.0.0` | FlowVisual | `FlowVisual-1.0.0.dmg` (macOS), `FlowVisual-Setup-1.0.0.exe` (Windows) |
+| `windownote-v0.9.0` | WindowNote | `WindowNote-0.9.0.dmg`, `WindowNote-0.9.0.zip` (macOS), `WindowNote-windows.zip` (Windows) |
 
 ## Prüfsummen
 
@@ -22,6 +24,6 @@ Zu jedem Release stehen die SHA-256-Summen in den Release-Notes. Nach dem
 Download vergleichen:
 
 ```
-shasum -a 256 FlowVisual-1.0.0.dmg          # macOS
-certutil -hashfile FlowVisual-Setup-1.0.0.exe SHA256   # Windows
+shasum -a 256 FlowVisual-1.0.1.dmg          # macOS
+certutil -hashfile FlowVisual-Setup-1.0.1.exe SHA256   # Windows
 ```
