@@ -16,7 +16,7 @@ Ein Release pro App und Version, Tag `<app>-v<version>`:
 | --- | --- | --- |
 | `flowvisual-v1.0.1` | FlowVisual | `FlowVisual-1.0.1.dmg` (macOS), `FlowVisual-Setup-1.0.1.exe` (Windows) |
 | `flowvisual-v1.0.0` | FlowVisual | `FlowVisual-1.0.0.dmg` (macOS), `FlowVisual-Setup-1.0.0.exe` (Windows) |
-| `windownote-v0.9.0` | WindowNote | `WindowNote-0.9.0.dmg` (macOS), `WindowNote-windows.zip` (Windows) |
+| `windownote-v0.9.0` | WindowNote | `WindowNote-0.9.0.dmg` (macOS), `WindowNote-0.9.0-setup.exe` (Windows), `WindowNote-windows-portable.zip` (Windows ohne Installation) |
 
 balane.app liest dieses Repository über die GitHub-API und leitet die stabilen
 Links auf das jeweils jüngste Release mit dem passenden Präfix um. Ein Release
