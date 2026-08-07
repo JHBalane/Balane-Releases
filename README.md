@@ -1,24 +1,52 @@
+<div align="center">
+
 # Balane Releases
 
-Öffentliche Installer der Balane-Apps. Dieses Repository enthält keinen
-Quellcode — die Dateien liegen ausschließlich als Release-Assets.
+**Official downloads for Balane desktop apps.** No source code here — every
+release carries the signed installers as files. Built in Munich by
+[Balane](https://www.balane.app).
 
-**Downloads: [Releases](https://github.com/JHBalane/Balane-Releases/releases)**
+[![BalaneDisk](https://img.shields.io/github/v/release/JHBalane/Balane-Releases?filter=balanedisk-v*&style=for-the-badge&label=BALANEDISK&labelColor=000000&color=00f0ff)](https://www.balane.app/en/apps/balanedisk)
+[![WindowNote](https://img.shields.io/github/v/release/JHBalane/Balane-Releases?filter=windownote-v*&style=for-the-badge&label=WINDOWNOTE&labelColor=000000&color=00f0ff)](https://www.balane.app/en/apps/windownote)
+[![FlowVisual](https://img.shields.io/github/v/release/JHBalane/Balane-Releases?filter=flowvisual-v*&style=for-the-badge&label=FLOWVISUAL&labelColor=000000&color=00f0ff)](https://www.balane.app/en/apps/flowvisual)
+[![Chessplosion](https://img.shields.io/github/v/release/JHBalane/Balane-Releases?filter=chessplosion-v*&style=for-the-badge&label=CHESSPLOSION&labelColor=000000&color=00f0ff)](https://www.balane.app/en/apps/chessplosion)
 
-Die Produktseiten mit Beschreibung, Screenshots und Preisen stehen auf
-[balane.app](https://www.balane.app).
+[![Total downloads](https://img.shields.io/github/downloads/JHBalane/Balane-Releases/total?style=for-the-badge&label=DOWNLOADS&labelColor=000000&color=ffffff)](https://github.com/JHBalane/Balane-Releases/releases)
 
-## Aufbau
+[![Status](https://img.shields.io/badge/STATUS-KNOWN_BUGS_%26_FIXES-00f0ff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/status)
+[![Support](https://img.shields.io/badge/SUPPORT-GET_HELP-00f0ff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/support)
+[![Updates](https://img.shields.io/badge/DOCS-UPDATES_%26_RELEASES-00f0ff?style=for-the-badge&labelColor=000000)](docs/updates-and-releases.md)
 
-Ein Release pro App und Version, Tag `<app>-v<version>`:
+</div>
 
-| Tag | App | Assets |
-| --- | --- | --- |
-| `flowvisual-v1.0.3` | FlowVisual | `FlowVisual-1.0.3.dmg` (macOS), `FlowVisual-Setup-1.0.3.exe` (Windows) |
-| `flowvisual-v1.0.2` | FlowVisual | `FlowVisual-1.0.2.dmg` (macOS), `FlowVisual-Setup-1.0.2.exe` (Windows) |
-| `flowvisual-v1.0.1` | FlowVisual | `FlowVisual-1.0.1.dmg` (macOS), `FlowVisual-Setup-1.0.1.exe` (Windows) |
-| `flowvisual-v1.0.0` | FlowVisual | `FlowVisual-1.0.0.dmg` (macOS), `FlowVisual-Setup-1.0.0.exe` (Windows) |
-| `windownote-v0.9.0` | WindowNote | `WindowNote-0.9.0.dmg` (macOS), `WindowNote-0.9.0-setup.exe` (Windows), `WindowNote-windows-portable.zip` (Windows ohne Installation) |
+## Get the apps
+
+These links always hand you the newest version:
+
+| App | macOS | Windows | All versions |
+| --- | --- | --- | --- |
+| **[BalaneDisk](https://www.balane.app/en/apps/balanedisk)** | [Download](https://www.balane.app/download/balanedisk) | [Download](https://www.balane.app/download/balanedisk-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=balanedisk) |
+| **[WindowNote](https://www.balane.app/en/apps/windownote)** | [Download](https://www.balane.app/download/windownote) | [Download](https://www.balane.app/download/windownote-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=windownote) |
+| **[FlowVisual](https://www.balane.app/en/apps/flowvisual)** | [Download](https://www.balane.app/download/flowvisual) | [Download](https://www.balane.app/download/flowvisual-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=flowvisual) |
+| **[Chessplosion](https://www.balane.app/en/apps/chessplosion)** | [Download](https://www.balane.app/download/chessplosion) | — | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=chessplosion) |
+
+macOS apps update themselves after that (see
+[Updates & releases](docs/updates-and-releases.md)).
+
+## Something broken?
+
+Every reported bug is tracked in the open — in this repository's
+[issues](https://github.com/JHBalane/Balane-Releases/issues) and on the public
+[status page](https://www.balane.app/en/status), from *reported* through
+*in progress* to *fixed*. How to report one: [Getting help](docs/support.md).
+
+---
+
+## Maintainer-Notizen
+
+Ein Release pro App und Version, Tag `<app>-v<version>`
+(z. B. `windownote-v0.9.1`), die Installer als Release-Assets:
+`.dmg` für macOS, `-setup.exe` für Windows.
 
 balane.app liest dieses Repository über die GitHub-API und leitet die stabilen
 Links auf das jeweils jüngste Release mit dem passenden Präfix um. Ein Release
@@ -35,6 +63,11 @@ Beide gehören dem Sparkle-Updater — die ZIP ist das, was er installiert, und
 `release.json` trägt Build-Nummer und Signatur, die ein GitHub-Release selbst
 nicht kennt. Für einen manuellen Download sind sie nicht gedacht: dafür ist die
 `.dmg` da.
+
+Bug-Tracking: ein Issue pro Bug, Label `app:<slug>` (Pflicht, sonst erscheint
+es nicht auf der Status-Seite) plus optional `in-progress`. Schließen als
+„completed" = gefixt und bleibt öffentlich gelistet; „not planned" =
+verschwindet von der Status-Seite.
 
 ## Prüfsummen
 
