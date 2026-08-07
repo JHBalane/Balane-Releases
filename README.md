@@ -6,16 +6,10 @@
 release carries the signed installers as files. Built in Munich by
 [Balane](https://www.balane.app).
 
-[![BalaneDisk](https://img.shields.io/github/v/release/JHBalane/Balane-Releases?filter=balanedisk-v*&style=for-the-badge&label=BALANEDISK&labelColor=000000&color=00f0ff)](https://www.balane.app/en/apps/balanedisk)
-[![WindowNote](https://img.shields.io/github/v/release/JHBalane/Balane-Releases?filter=windownote-v*&style=for-the-badge&label=WINDOWNOTE&labelColor=000000&color=00f0ff)](https://www.balane.app/en/apps/windownote)
-[![FlowVisual](https://img.shields.io/github/v/release/JHBalane/Balane-Releases?filter=flowvisual-v*&style=for-the-badge&label=FLOWVISUAL&labelColor=000000&color=00f0ff)](https://www.balane.app/en/apps/flowvisual)
-[![Chessplosion](https://img.shields.io/github/v/release/JHBalane/Balane-Releases?filter=chessplosion-v*&style=for-the-badge&label=CHESSPLOSION&labelColor=000000&color=00f0ff)](https://www.balane.app/en/apps/chessplosion)
-
-[![Total downloads](https://img.shields.io/github/downloads/JHBalane/Balane-Releases/total?style=for-the-badge&label=DOWNLOADS&labelColor=000000&color=ffffff)](https://github.com/JHBalane/Balane-Releases/releases)
-
-[![Status](https://img.shields.io/badge/STATUS-KNOWN_BUGS_%26_FIXES-00f0ff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/status)
-[![Support](https://img.shields.io/badge/SUPPORT-GET_HELP-00f0ff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/support)
-[![Updates](https://img.shields.io/badge/DOCS-UPDATES_%26_RELEASES-00f0ff?style=for-the-badge&labelColor=000000)](docs/updates-and-releases.md)
+[![Total downloads](https://img.shields.io/github/downloads/JHBalane/Balane-Releases/total?style=for-the-badge&label=DOWNLOADS&labelColor=000000&color=00ffff)](https://github.com/JHBalane/Balane-Releases/releases)
+[![Status](https://img.shields.io/badge/STATUS-BUGS_%26_FIXES-00ffff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/status)
+[![Support](https://img.shields.io/badge/SUPPORT-GET_HELP-00ffff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/support)
+[![Updates](https://img.shields.io/badge/DOCS-UPDATES-00ffff?style=for-the-badge&labelColor=000000)](docs/updates-and-releases.md)
 
 </div>
 
