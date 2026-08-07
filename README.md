@@ -9,7 +9,7 @@ release carries the signed installers as files. Built in Munich by
 [![Total downloads](https://img.shields.io/github/downloads/JHBalane/Balane-Releases/total?style=for-the-badge&label=DOWNLOADS&labelColor=000000&color=00ffff)](https://github.com/JHBalane/Balane-Releases/releases)
 [![Status](https://img.shields.io/badge/STATUS-BUGS_%26_FIXES-00ffff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/status)
 [![Support](https://img.shields.io/badge/SUPPORT-GET_HELP-00ffff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/support)
-[![Updates](https://img.shields.io/badge/DOCS-UPDATES-00ffff?style=for-the-badge&labelColor=000000)](docs/updates-and-releases.md)
+[![Updates](https://img.shields.io/badge/DOCS-UPDATES-00ffff?style=for-the-badge&labelColor=000000)](https://github.com/JHBalane/Balane-Releases/wiki/Updates-and-Releases)
 
 </div>
 
@@ -25,14 +25,14 @@ These links always hand you the newest version:
 | **[Chessplosion](https://www.balane.app/en/apps/chessplosion)** | [Download](https://www.balane.app/download/chessplosion) | — | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=chessplosion) |
 
 macOS apps update themselves after that (see
-[Updates & releases](docs/updates-and-releases.md)).
+[Updates & Releases](https://github.com/JHBalane/Balane-Releases/wiki/Updates-and-Releases)).
 
 ## Something broken?
 
 Every reported bug is tracked in the open — in this repository's
 [issues](https://github.com/JHBalane/Balane-Releases/issues) and on the public
 [status page](https://www.balane.app/en/status), from *reported* through
-*in progress* to *fixed*. How to report one: [Getting help](docs/support.md).
+*in progress* to *fixed*. How to report one: [Getting Help](https://github.com/JHBalane/Balane-Releases/wiki/Getting-Help).
 
 ---
 
