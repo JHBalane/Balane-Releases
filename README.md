@@ -23,6 +23,7 @@ These links always hand you the newest version:
 | **[WindowNote](https://www.balane.app/en/apps/windownote)** | [Download](https://www.balane.app/download/windownote) | [Download](https://www.balane.app/download/windownote-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=windownote) |
 | **[FlowVisual](https://www.balane.app/en/apps/flowvisual)** | [Download](https://www.balane.app/download/flowvisual) | [Download](https://www.balane.app/download/flowvisual-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=flowvisual) |
 | **[Chessplosion](https://www.balane.app/en/apps/chessplosion)** | [Download](https://www.balane.app/download/chessplosion) | — | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=chessplosion) |
+| **[ship global](https://www.shipglobal.dev/en)** | [Download](https://www.shipglobal.dev/en/download) | [Download](https://www.shipglobal.dev/en/download) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=shipglobal) |
 
 macOS apps update themselves after that (see
 [Updates & Releases](https://github.com/JHBalane/Balane-Releases/wiki/Updates-and-Releases)).
@@ -51,6 +52,26 @@ ist damit ohne Deploy der Website sofort live:
 | `balane.app/download/<app>` | neueste macOS-Datei |
 | `balane.app/download/<app>-win` | neueste Windows-Datei |
 | `balane.app/appcast/<app>` | Sparkle-Feed |
+
+### ship global — abweichend
+
+`ship global` ist eine Tauri-App und benutzt nicht Sparkle, sondern Tauris eigenen
+Updater. Der Unterschied ist nicht kosmetisch: Sparkle liest einen Feed, Tauri fragt
+eine Adresse mit seiner laufenden Version und bekommt entweder 204 oder ein JSON.
+
+| Was | Wert |
+| --- | --- |
+| Tag | `shipglobal-v<version>` |
+| Assets | `ShipGlobal-<version>-<arch>.dmg`, `ShipGlobal-<version>-<arch>.app.tar.gz` + `.sig` |
+| Windows | `ShipGlobal-Setup-<version>.exe`, `.nsis.zip` + `.sig` |
+| Download-Seite | https://www.shipglobal.dev/en/download |
+| Update-Endpunkt | `https://www.shipglobal.dev/api/updates/{{target}}/{{arch}}/{{current_version}}` |
+
+**Kein `latest.json` als Asset.** In einem Repo mit mehreren Apps ist GitHubs
+`releases/latest` das jüngste Release *irgendeiner* App — ein BalaneDisk-Release würde
+ship-global-Installationen dessen JSON unterschieben. Der Endpunkt oben filtert nach
+dem Tag-Präfix und liefert nur ship global. Aus demselben Grund lesen auch die
+Download-Knöpfe auf shipglobal.dev über die GitHub-API statt über `latest/download`.
 
 Manche Releases führen zusätzlich `<App>-<version>.zip` und `release.json`.
 Beide gehören dem Sparkle-Updater — die ZIP ist das, was er installiert, und
