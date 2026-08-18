@@ -20,6 +20,7 @@ These links always hand you the newest version:
 | App | macOS | Windows | All versions |
 | --- | --- | --- | --- |
 | **[BalaneDisk](https://www.balane.app/en/apps/balanedisk)** | [Download](https://www.balane.app/download/balanedisk) | [Download](https://www.balane.app/download/balanedisk-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=balanedisk) |
+| **[CellAlert](https://www.cellalert.app)** | [Download](https://www.balane.app/download/cellalert) | [Download](https://www.balane.app/download/cellalert-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=cellalert) |
 | **[WindowNote](https://www.balane.app/en/apps/windownote)** | [Download](https://www.balane.app/download/windownote) | [Download](https://www.balane.app/download/windownote-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=windownote) |
 | **[FlowVisual](https://www.balane.app/en/apps/flowvisual)** | [Download](https://www.balane.app/download/flowvisual) | [Download](https://www.balane.app/download/flowvisual-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=flowvisual) |
 | **[Chessplosion](https://www.balane.app/en/apps/chessplosion)** | [Download](https://www.balane.app/download/chessplosion) | — | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=chessplosion) |
@@ -52,6 +53,28 @@ ist damit ohne Deploy der Website sofort live:
 | `balane.app/download/<app>` | neueste macOS-Datei |
 | `balane.app/download/<app>-win` | neueste Windows-Datei |
 | `balane.app/appcast/<app>` | Sparkle-Feed |
+
+### CellAlert — abweichend
+
+CellAlert ist keine reine Desktop-App, sondern die Desktop-Fläche eines
+Web-Abos (Fristen aus Excel). Zwei Unterschiede:
+
+| Was | Wert |
+| --- | --- |
+| Tag | `cellalert-v<version>` |
+| macOS | `CellAlert-<version>.dmg` — Developer ID, notarisiert |
+| Windows | `CellAlert-<version>-windows-portable.zip` (noch kein `-setup.exe`) |
+| Quelle | privat, `JHBalane/cellalert-app` |
+
+Der Windows-Build kommt aus GitHub Actions (`.github/workflows/windows-build.yml`
+im App-Repo) und wird bei einem Tag automatisch hierher hochgeladen. Solange es
+keinen Installer gibt, ist das Windows-Asset ein portables ZIP — der Link
+`balane.app/download/cellalert-win` muss also auch darauf zeigen können.
+
+Die Store-Varianten (Mac App Store, Microsoft Store, App Store, Play Store)
+laufen getrennt davon. Nur die hier verlinkten Direkt-Downloads dürfen die
+Abo-/Checkout-Fläche zeigen — die Store-Builds nicht (Apple 3.1.1). Gesteuert
+wird das im App-Repo über `--dart-define=DIRECT_SALE=true`.
 
 ### ship global — abweichend
 
