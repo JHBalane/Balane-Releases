@@ -7,11 +7,12 @@
     <description>Updates for FlowVisual — the living business-process simulator.</description>
     <language>en</language>
     <item>
-      <title>1.0.3</title>
-      <pubDate>Tue, 04 Aug 2026 14:04:20 +0000</pubDate>
-      <sparkle:releaseNotesLink>https://github.com/JHBalane/Balane-Releases/releases/tag/flowvisual-v1.0.3</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/JHBalane/Balane-Releases/releases/download/flowvisual-v1.0.3/FlowVisual-1.0.3.dmg" sparkle:os="macos" sparkle:version="8" sparkle:shortVersionString="1.0.3" length="23388545" type="application/octet-stream" sparkle:edSignature="BLcLQYBECOUuEwS03qTZ29hJLO2XyZ8gOeqg56XFfmI73PUrIhYSgocG9Eju1AaeyHPTam4gJqmX+0+vTPAvAg==" />
-      <enclosure url="https://github.com/JHBalane/Balane-Releases/releases/download/flowvisual-v1.0.3/FlowVisual-Setup-1.0.3.exe" sparkle:os="windows" sparkle:version="1.0.3" length="15344145" type="application/octet-stream" sparkle:dsaSignature="MDwCHHF2CquvmYcEaOzFtIWqa9l0658wUHo0Hpm2+pECHChq6lJaRKJYTRi+mFiFU2SjDZn7gAvnOyskKKk=" />
+      <title>1.1.0</title>
+      <pubDate>Sun, 23 Aug 2026 08:59:34 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://github.com/JHBalane/Balane-Releases/releases/tag/flowvisual-v1.1.0</sparkle:releaseNotesLink>
+      <description>Genauere Zahlen, ehrliche Datenlage, Präsentationsmodus, Fensterverhalten auf Mac und Windows korrigiert.</description>
+      <enclosure url="https://github.com/JHBalane/Balane-Releases/releases/download/flowvisual-v1.1.0/FlowVisual-1.1.0.dmg" sparkle:os="macos" sparkle:version="9" sparkle:shortVersionString="1.1.0" length="24370654" type="application/octet-stream" sparkle:edSignature="7XbFeh/msvoG6qTM9LzNmTHoNHwFmmOvXGG0wmTO2mxpZP0ALKbHl3kL0Dlr3SPCORWwgJHTCpajOJbGbUy3AA==" />
+      <enclosure url="https://github.com/JHBalane/Balane-Releases/releases/download/flowvisual-v1.1.0/FlowVisual-Setup-1.1.0.exe" sparkle:os="windows" sparkle:version="1.1.0" length="15250632" type="application/octet-stream" sparkle:dsaSignature="MDwCHB1NvQcImXFeym7RrNcY8Wdi/V/URyr0IXqjWyACHHdGKftP8MC4Ofmskb/90EEbrUNa9+VC8I9EVIc=" />
     </item>
   </channel>
 </rss>
