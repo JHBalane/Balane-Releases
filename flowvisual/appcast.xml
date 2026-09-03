@@ -7,12 +7,11 @@
     <description>Updates for FlowVisual — the living business-process simulator.</description>
     <language>en</language>
     <item>
-      <title>1.1.0</title>
-      <pubDate>Sun, 23 Aug 2026 08:59:34 +0000</pubDate>
-      <sparkle:releaseNotesLink>https://github.com/JHBalane/Balane-Releases/releases/tag/flowvisual-v1.1.0</sparkle:releaseNotesLink>
-      <description>Genauere Zahlen, ehrliche Datenlage, Präsentationsmodus, Fensterverhalten auf Mac und Windows korrigiert.</description>
-      <enclosure url="https://github.com/JHBalane/Balane-Releases/releases/download/flowvisual-v1.1.0/FlowVisual-1.1.0.dmg" sparkle:os="macos" sparkle:version="9" sparkle:shortVersionString="1.1.0" length="24370654" type="application/octet-stream" sparkle:edSignature="7XbFeh/msvoG6qTM9LzNmTHoNHwFmmOvXGG0wmTO2mxpZP0ALKbHl3kL0Dlr3SPCORWwgJHTCpajOJbGbUy3AA==" />
-      <enclosure url="https://github.com/JHBalane/Balane-Releases/releases/download/flowvisual-v1.1.0/FlowVisual-Setup-1.1.0.exe" sparkle:os="windows" sparkle:version="1.1.0" length="15250632" type="application/octet-stream" sparkle:dsaSignature="MDwCHB1NvQcImXFeym7RrNcY8Wdi/V/URyr0IXqjWyACHHdGKftP8MC4Ofmskb/90EEbrUNa9+VC8I9EVIc=" />
+      <title>1.2.0</title>
+      <pubDate>Thu, 03 Sep 2026 10:07:56 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://github.com/JHBalane/Balane-Releases/releases/tag/flowvisual-v1.2.0</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/JHBalane/Balane-Releases/releases/download/flowvisual-v1.2.0/FlowVisual-1.2.0.dmg" sparkle:os="macos" sparkle:version="10" sparkle:shortVersionString="1.2.0" length="25343385" type="application/octet-stream" sparkle:edSignature="KGyMhHY6euibKXzGWrw/sxmrBSFSNXBaMGkgof4qCtm2beRhrfhtlFRK7c37VPH7sqDRvpguiLo2jnKRSMkPCg==" />
+      <enclosure url="https://github.com/JHBalane/Balane-Releases/releases/download/flowvisual-v1.2.0/FlowVisual-Setup-1.2.0.exe" sparkle:os="windows" sparkle:version="1.2.0" length="15543252" type="application/octet-stream" sparkle:dsaSignature="MDwCHHt+N1BvjMd8i2IYKdQOlB1pshKM0+RDeTI94PACHA+IcwjltORvTyuzQgc5Fd3gUv32Df3+0LYJOVY=" />
     </item>
   </channel>
 </rss>
