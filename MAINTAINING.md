@@ -76,7 +76,16 @@ Download-Knöpfe auf shipglobal.dev über die GitHub-API statt über `latest/dow
 ## Bug-Tracking
 
 Ein Issue pro Bug, Label `app:<slug>` (Pflicht, sonst erscheint es nicht auf der
-Status-Seite) plus optional `in-progress`.
+Status-Seite) plus ein Zustands-Label.
+
+| Label | Bedeutet |
+| --- | --- |
+| — | gemeldet, noch nicht in Arbeit |
+| `in-progress` | wird gerade bearbeitet |
+| `awaiting-release` | Fix ist fertig, die Version ist noch nicht draußen |
+
+`awaiting-release` ersetzt `in-progress`, sobald der Fix im Code liegt, und
+verschwindet mit dem Release — dann wird das Issue geschlossen.
 
 | Schließen als | Wirkung |
 | --- | --- |
