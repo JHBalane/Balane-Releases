@@ -1,10 +1,10 @@
 <div align="center">
 
-# Balane Releases
+<h1>Balane Releases</h1>
 
-**Official downloads for Balane desktop apps.** No source code here — every
-release carries the signed installers as files. Built in Munich by
-[Balane](https://www.balane.app).
+**Official downloads for Balane desktop apps.**<br>
+No source code here. Every release carries the signed installers as files.<br>
+Built in Munich by [Balane](https://www.balane.app).
 
 [![Total downloads](https://img.shields.io/github/downloads/JHBalane/Balane-Releases/total?style=for-the-badge&label=DOWNLOADS&labelColor=000000&color=00ffff)](https://github.com/JHBalane/Balane-Releases/releases)
 [![Status](https://img.shields.io/badge/STATUS-BUGS_%26_FIXES-00ffff?style=for-the-badge&labelColor=000000)](https://www.balane.app/en/status)
@@ -13,106 +13,140 @@ release carries the signed installers as files. Built in Munich by
 
 </div>
 
-## Get the apps
+## Jump to what you need
 
-These links always hand you the newest version:
+| You want to | Go here |
+| --- | --- |
+| Download an app | [The apps](#the-apps) |
+| Find an older version | [All releases](https://github.com/JHBalane/Balane-Releases/releases) |
+| Know if a bug is already known | [Status page](https://www.balane.app/en/status) |
+| Report a bug | [Open an issue](https://github.com/JHBalane/Balane-Releases/issues/new/choose) |
+| Ask a human | [Support](https://www.balane.app/en/support) |
+| Understand how updates reach you | [Updates & Releases](https://github.com/JHBalane/Balane-Releases/wiki/Updates-and-Releases) |
+| Check a download is intact | [Verify your download](#verify-your-download) |
+| Publish a release yourself | [MAINTAINING.md](MAINTAINING.md) |
 
-| App | macOS | Windows | All versions |
-| --- | --- | --- | --- |
-| **[BalaneDisk](https://www.balane.app/en/apps/balanedisk)** | [Download](https://www.balane.app/download/balanedisk) | [Download](https://www.balane.app/download/balanedisk-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=balanedisk) |
-| **[CellAlert](https://www.cellalert.app)** | [Download](https://www.balane.app/download/cellalert) | [Download](https://www.balane.app/download/cellalert-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=cellalert) |
-| **[WindowNote](https://www.balane.app/en/apps/windownote)** | [Download](https://www.balane.app/download/windownote) | [Download](https://www.balane.app/download/windownote-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=windownote) |
-| **[FlowVisual](https://www.balane.app/en/apps/flowvisual)** | [Download](https://www.balane.app/download/flowvisual) | [Download](https://www.balane.app/download/flowvisual-win) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=flowvisual) |
-| **[Chessplosion](https://www.balane.app/en/apps/chessplosion)** | [Download](https://www.balane.app/download/chessplosion) | — | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=chessplosion) |
-| **[ship global](https://www.shipglobal.dev/en)** | [Download](https://www.shipglobal.dev/en/download) | [Download](https://www.shipglobal.dev/en/download) | [Releases](https://github.com/JHBalane/Balane-Releases/releases?q=shipglobal) |
+## The apps
 
-macOS apps update themselves after that (see
-[Updates & Releases](https://github.com/JHBalane/Balane-Releases/wiki/Updates-and-Releases)).
+Every download link below always hands you the newest version. No version numbers
+to keep track of, no stale links.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://www.balane.app/en/apps/balanedisk"><img src=".github/assets/balanedisk.png" alt="BalaneDisk"></a>
+
+### BalaneDisk
+
+Finally see what your machine is doing. Every running process as a mark on a
+radar, sorted by origin and by how much it costs you.
+
+[macOS](https://www.balane.app/download/balanedisk) · [Windows](https://www.balane.app/download/balanedisk-win) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=balanedisk)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://www.cellalert.app"><img src=".github/assets/cellalert.png" alt="CellAlert"></a>
+
+### CellAlert
+
+Never miss a deadline, straight from your Excel sheet. Dates in cells become
+monitored deadlines with reminders. Excel stays the source of truth.
+
+[macOS](https://www.balane.app/download/cellalert) · [Windows](https://www.balane.app/download/cellalert-win) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=cellalert)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://www.balane.app/en/apps/windownote"><img src=".github/assets/windownote.png" alt="WindowNote"></a>
+
+### WindowNote
+
+Notes that belong to a window, not to a notes app. Hit `⌃⌥⌘N` over any window
+and pin a note to it: "migration running, don't close".
+
+[macOS](https://www.balane.app/download/windownote) · [Windows](https://www.balane.app/download/windownote-win) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=windownote)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://www.balane.app/en/apps/flowvisual"><img src=".github/assets/flowvisual.png" alt="FlowVisual"></a>
+
+### FlowVisual
+
+Simulate a process, find the bottleneck, prove the fix in euros. Model it from
+elements, watch it run live, let a Monte-Carlo stress test expose the weak spot.
+
+[macOS](https://www.balane.app/download/flowvisual) · [Windows](https://www.balane.app/download/flowvisual-win) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=flowvisual)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://www.balane.app/en/apps/chessplosion"><img src=".github/assets/chessplosion.png" alt="Chessplosion"></a>
+
+### Chessplosion
+
+Chess, and whoever captures gets to throw. 3D chess with a second mode you will
+not find anywhere else: capture a piece, then throw it back onto the board.
+
+[macOS](https://www.balane.app/download/chessplosion) · Windows: not yet · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=chessplosion)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://www.shipglobal.dev/en"><img src=".github/assets/shipglobal.png" alt="ship global"></a>
+
+### ship global
+
+Language files in 64 languages, translated on your own machine. Drop in
+`.strings`, `.xcstrings`, `strings.xml`, JSON or XLIFF, get it back intact.
+
+[macOS](https://www.shipglobal.dev/en/download) · [Windows](https://www.shipglobal.dev/en/download) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=shipglobal)
+
+</td>
+</tr>
+</table>
+
+## Updates
+
+You download once. After that the app updates itself: on macOS through Sparkle,
+in `ship global` through Tauri's own updater. Both check this repository
+directly, so a new release is available to you the moment it is published.
+
+The full mechanics, including how to turn updates off, are in
+[Updates & Releases](https://github.com/JHBalane/Balane-Releases/wiki/Updates-and-Releases).
 
 ## Something broken?
 
-Every reported bug is tracked in the open — in this repository's
-[issues](https://github.com/JHBalane/Balane-Releases/issues) and on the public
-[status page](https://www.balane.app/en/status), from *reported* through
-*in progress* to *fixed*. How to report one: [Getting Help](https://github.com/JHBalane/Balane-Releases/wiki/Getting-Help).
+Every reported bug is tracked in the open, from *reported* through *in progress*
+to *fixed*:
 
----
+- [Issues in this repository](https://github.com/JHBalane/Balane-Releases/issues) is the raw list.
+- [The status page](https://www.balane.app/en/status) is the same data, sorted by app.
 
-## Maintainer-Notizen
+Before you write, check whether it is already there. If it is not,
+[Getting Help](https://github.com/JHBalane/Balane-Releases/wiki/Getting-Help)
+explains what to include so the bug can actually be fixed.
 
-Ein Release pro App und Version, Tag `<app>-v<version>`
-(z. B. `windownote-v0.9.1`), die Installer als Release-Assets:
-`.dmg` für macOS, `-setup.exe` für Windows.
+## Verify your download
 
-balane.app liest dieses Repository über die GitHub-API und leitet die stabilen
-Links auf das jeweils jüngste Release mit dem passenden Präfix um. Ein Release
-ist damit ohne Deploy der Website sofort live:
+Every release lists the SHA-256 sum of each file in its release notes. Compare
+after downloading:
 
-| Link | Ziel |
-| --- | --- |
-| `balane.app/download/<app>` | neueste macOS-Datei |
-| `balane.app/download/<app>-win` | neueste Windows-Datei |
-| `balane.app/appcast/<app>` | Sparkle-Feed |
-
-### CellAlert — abweichend
-
-CellAlert ist keine reine Desktop-App, sondern die Desktop-Fläche eines
-Web-Abos (Fristen aus Excel). Zwei Unterschiede:
-
-| Was | Wert |
-| --- | --- |
-| Tag | `cellalert-v<version>` |
-| macOS | `CellAlert-<version>.dmg` — Developer ID, notarisiert |
-| Windows | `CellAlert-<version>-windows-portable.zip` (noch kein `-setup.exe`) |
-| Quelle | privat, `JHBalane/cellalert-app` |
-
-Der Windows-Build kommt aus GitHub Actions (`.github/workflows/windows-build.yml`
-im App-Repo) und wird bei einem Tag automatisch hierher hochgeladen. Solange es
-keinen Installer gibt, ist das Windows-Asset ein portables ZIP — der Link
-`balane.app/download/cellalert-win` muss also auch darauf zeigen können.
-
-Die Store-Varianten (Mac App Store, Microsoft Store, App Store, Play Store)
-laufen getrennt davon. Nur die hier verlinkten Direkt-Downloads dürfen die
-Abo-/Checkout-Fläche zeigen — die Store-Builds nicht (Apple 3.1.1). Gesteuert
-wird das im App-Repo über `--dart-define=DIRECT_SALE=true`.
-
-### ship global — abweichend
-
-`ship global` ist eine Tauri-App und benutzt nicht Sparkle, sondern Tauris eigenen
-Updater. Der Unterschied ist nicht kosmetisch: Sparkle liest einen Feed, Tauri fragt
-eine Adresse mit seiner laufenden Version und bekommt entweder 204 oder ein JSON.
-
-| Was | Wert |
-| --- | --- |
-| Tag | `shipglobal-v<version>` |
-| Assets | `ShipGlobal-<version>-<arch>.dmg`, `ShipGlobal-<version>-<arch>.app.tar.gz` + `.sig` |
-| Windows | `ShipGlobal-Setup-<version>.exe`, `.nsis.zip` + `.sig` |
-| Download-Seite | https://www.shipglobal.dev/en/download |
-| Update-Endpunkt | `https://www.shipglobal.dev/api/updates/{{target}}/{{arch}}/{{current_version}}` |
-
-**Kein `latest.json` als Asset.** In einem Repo mit mehreren Apps ist GitHubs
-`releases/latest` das jüngste Release *irgendeiner* App — ein BalaneDisk-Release würde
-ship-global-Installationen dessen JSON unterschieben. Der Endpunkt oben filtert nach
-dem Tag-Präfix und liefert nur ship global. Aus demselben Grund lesen auch die
-Download-Knöpfe auf shipglobal.dev über die GitHub-API statt über `latest/download`.
-
-Manche Releases führen zusätzlich `<App>-<version>.zip` und `release.json`.
-Beide gehören dem Sparkle-Updater — die ZIP ist das, was er installiert, und
-`release.json` trägt Build-Nummer und Signatur, die ein GitHub-Release selbst
-nicht kennt. Für einen manuellen Download sind sie nicht gedacht: dafür ist die
-`.dmg` da.
-
-Bug-Tracking: ein Issue pro Bug, Label `app:<slug>` (Pflicht, sonst erscheint
-es nicht auf der Status-Seite) plus optional `in-progress`. Schließen als
-„completed" = gefixt und bleibt öffentlich gelistet; „not planned" =
-verschwindet von der Status-Seite.
-
-## Prüfsummen
-
-Zu jedem Release stehen die SHA-256-Summen in den Release-Notes. Nach dem
-Download vergleichen:
-
+```bash
+shasum -a 256 FlowVisual-1.2.0.dmg                     # macOS
+certutil -hashfile FlowVisual-Setup-1.2.0.exe SHA256   # Windows
 ```
-shasum -a 256 FlowVisual-1.0.1.dmg                      # macOS
-certutil -hashfile FlowVisual-Setup-1.0.1.exe SHA256   # Windows
-```
+
+If the sum does not match the release notes, do not run the file. Tell us at
+[Support](https://www.balane.app/en/support).
+
+## For maintainers
+
+Tag naming, per-app quirks, how balane.app resolves the stable download links,
+and the bug-tracking labels: [MAINTAINING.md](MAINTAINING.md).
