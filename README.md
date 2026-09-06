@@ -1,6 +1,11 @@
 <div align="center">
 
-<h1>Balane Releases</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/balane-wordmark-white.svg">
+  <img src=".github/assets/balane-wordmark-black.svg" alt="BALANE" width="240">
+</picture>
+
+<h1>Releases</h1>
 
 **Official downloads for Balane desktop apps.**<br>
 No source code here. Every release carries the signed installers as files.<br>
