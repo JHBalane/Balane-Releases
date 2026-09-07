@@ -75,6 +75,24 @@ Download-Knöpfe auf shipglobal.dev über die GitHub-API statt über `latest/dow
 
 ## Bug-Tracking
 
+**Issues legt nur der Maintainer an.** Meldungen kommen über Zammad
+(`support@balane.tech`, Formular auf `balane.app/<lang>/support`), nicht über
+GitHub. `.github/ISSUE_TEMPLATE/config.yml` schaltet Blank Issues ab und zeigt
+auf „New issue“ nur noch die Support-Links — ein Kanal, kein zweiter Posteingang.
+Aus einem Zammad-Ticket wird hier ein Issue, wenn der Bug bestätigt ist; die
+Ticket-Nummer gehört in den Issue-Text, damit die Antwort an den Melder
+zuordenbar bleibt.
+
+Zusätzlich läuft auf dem Repo ein GitHub *interaction limit*
+(`collaborators_only`): Fremde können weder Issues öffnen noch kommentieren,
+Lesen bleibt offen. GitHub befristet das auf sechs Monate — **läuft ab am
+2027-03-07**, danach neu setzen:
+
+```bash
+gh api -X PUT /repos/JHBalane/Balane-Releases/interaction-limits \
+  -f limit=collaborators_only -f expiry=six_months
+```
+
 Ein Issue pro Bug, Label `app:<slug>` (Pflicht, sonst erscheint es nicht auf der
 Status-Seite) plus ein Zustands-Label.
 

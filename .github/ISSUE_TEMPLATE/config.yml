@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a bug
+    url: https://www.balane.app/en/support
+    about: Bug reports go through support so nothing gets lost. We open the public issue for you.
+  - name: Fehler melden
+    url: https://www.balane.app/de/support
+    about: Fehlermeldungen laufen über den Support. Das öffentliche Issue legen wir für dich an.
+  - name: Email support
+    url: mailto:support@balane.tech
+    about: Write to support@balane.tech if you prefer email.
+  - name: Known bugs and fixes
+    url: https://www.balane.app/en/status
+    about: Check whether your bug is already reported and where the fix stands.

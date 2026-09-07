@@ -25,8 +25,8 @@ Built in Munich by [Balane](https://www.balane.app).
 | Download an app | [The apps](#the-apps) |
 | Find an older version | [All releases](https://github.com/JHBalane/Balane-Releases/releases) |
 | Know if a bug is already known | [Status page](https://www.balane.app/en/status) |
-| Report a bug | [Open an issue](https://github.com/JHBalane/Balane-Releases/issues/new/choose) |
-| Ask a human | [Support](https://www.balane.app/en/support) |
+| Report a bug | [Support](https://www.balane.app/en/support) |
+| Ask a human | [support@balane.tech](mailto:support@balane.tech) |
 | Understand how updates reach you | [Updates & Releases](https://github.com/JHBalane/Balane-Releases/wiki/Updates-and-Releases) |
 | Check a download is intact | [Verify your download](#verify-your-download) |
 | Publish a release yourself | [MAINTAINING.md](MAINTAINING.md) |
@@ -128,8 +128,13 @@ The full mechanics, including how to turn updates off, are in
 
 ## Something broken?
 
-Every reported bug is tracked in the open, from *reported* through *in progress*
-to *fixed*:
+Report it through [Support](https://www.balane.app/en/support) (German:
+[Support](https://www.balane.app/de/support)) or by mail to
+<support@balane.tech>. That is the one channel we watch, so nothing gets lost.
+GitHub issues here are opened by us from those reports.
+
+Every reported bug is then tracked in the open, from *reported* through
+*in progress* to *fixed*:
 
 - [Issues in this repository](https://github.com/JHBalane/Balane-Releases/issues) is the raw list.
 - [The status page](https://www.balane.app/en/status) is the same data, sorted by app.
