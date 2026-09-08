@@ -115,6 +115,22 @@ Language files in 64 languages, translated on your own machine. Drop in
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://www.balane.app/en/apps/otterslide"><img src=".github/assets/otterslide.png" alt="OtterSlide"></a>
+
+### OtterSlide
+
+An otter, a river, and no end to it. Slide down an endless stream after a friend,
+dodge what the current throws at you, and get further than they did.
+
+[macOS](https://www.balane.app/download/otterslide) · [Windows](https://www.balane.app/download/otterslide-win) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=otterslide)
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 ## Updates

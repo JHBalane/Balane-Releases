@@ -73,6 +73,34 @@ ship-global-Installationen dessen JSON unterschieben. Der Endpunkt oben filtert 
 dem Tag-Präfix und liefert nur ship global. Aus demselben Grund lesen auch die
 Download-Knöpfe auf shipglobal.dev über die GitHub-API statt über `latest/download`.
 
+## OtterSlide, abweichend
+
+OtterSlide ist ein Spiel und kommt in erster Linie aus den Stores (App Store,
+Mac App Store, Play Store, Microsoft Store). Der Direkt-Download hier ist die
+Zugabe für Leute ohne Store-Konto.
+
+| Was | Wert |
+| --- | --- |
+| Tag | `otterslide-v<version>` |
+| macOS | `OtterSlide-<version>.dmg`, Developer ID, notarisiert |
+| Windows | `OtterSlide-<version>-setup.exe` (Inno Setup, **unsigniert**) |
+| Quelle | privat, `JHBalane/otterslide_flutter` |
+
+**Kein Sparkle.** Die App aktualisiert sich nicht selbst — der Abschnitt
+„Updates" in der README gilt für OtterSlide nicht. Wer die Direkt-Fassung
+benutzt, holt sich die nächste Version wieder von Hand. Es gibt daher auch kein
+`release.json` und keine ZIP, nur die beiden Installer.
+
+Der Windows-Build kommt aus GitHub Actions (`.github/workflows/windows-msix.yml`
+im App-Repo, ausgelöst über die Actions-Registerkarte oder ein `v*`-Tag), weil
+Flutter Windows nicht von einem Mac aus bauen kann. Derselbe Lauf erzeugt beides:
+die unsignierte MSIX für Partner Center und die `-setup.exe` für hier. Beide
+werden als Build-Artefakte abgeholt und von Hand hochgeladen.
+
+Werbung und Käufe sind auf iOS und Android begrenzt. Auf dem Schreibtisch ist
+beides aus, die Direkt-Fassung zeigt also keine Abo- oder Kauffläche — was die
+Store-Regel aus dem CellAlert-Abschnitt hier von selbst erfüllt.
+
 ## Bug-Tracking
 
 **Issues legt nur der Maintainer an.** Meldungen kommen über Zammad
@@ -117,7 +145,7 @@ App-Seite, einmal heruntergeladen statt verlinkt. Ändert sich das Design auf
 balane.app, neu ziehen:
 
 ```bash
-for a in balanedisk cellalert windownote flowvisual chessplosion shipglobal; do
+for a in balanedisk cellalert windownote flowvisual chessplosion shipglobal otterslide; do
   curl -sL -o ".github/assets/$a.png" "https://www.balane.app/en/apps/$a/opengraph-image"
 done
 ```
