@@ -53,6 +53,43 @@ laufen getrennt davon. Nur die hier verlinkten Direkt-Downloads dürfen die
 Abo- und Checkout-Fläche zeigen, die Store-Builds nicht (Apple 3.1.1). Gesteuert
 wird das im App-Repo über `--dart-define=DIRECT_SALE=true`.
 
+## NetMute, abweichend
+
+NetMute wird doppelt vertrieben: im Mac App Store und ab sofort auch direkt
+ueber Lemon Squeezy mit Lizenzschluessel. Vier Unterschiede zu den anderen Apps.
+
+| Was | Wert |
+| --- | --- |
+| Tag | `netmute-v<version>` |
+| macOS | `NetMute-<version>.dmg`, Developer ID, notarisiert |
+| Windows | gibt es nicht und wird es nicht geben |
+| Quelle | privat, `JHBalane/NetMute` |
+
+**Der Direktbuild ist ein anderer Build.** Genau wie bei CellAlert darf die
+Lizenz- und Kauffläche niemals in den Store-Build geraten (Apple 3.1.1).
+Gesteuert wird das nicht ueber eine Projekteinstellung, sondern ueber eine
+Compilerbedingung, die nur das Build-Skript uebergibt:
+
+```
+tools/build-direct.sh archive     # setzt SWIFT_ACTIVE_COMPILATION_CONDITIONS=DIRECT_DISTRIBUTION
+```
+
+Ein Archiv aus Xcode oder aus einem CI-Lauf ohne dieses Skript enthaelt den
+Lizenzcode nicht einmal als Zeichenkette im Binary. Das ist Absicht: eine
+Einstellung, die man vergessen kann, waere hier ein Ablehnungsgrund im Review.
+
+**Blocker, Stand 2026-09-10.** Es gibt noch kein Direkt-Release, weil Apple die
+Berechtigung `com.apple.developer.networking.networkextension` mit dem Suffix
+`-systemextension` fuer die App-ID freischalten und ein passendes
+Developer-ID-Provisioning-Profil ausstellen muss. Ohne das schlaegt das
+Signieren der Systemerweiterung fehl. `netmute/appcast.xml` ist deshalb ein
+leerer, aber gueltiger Kanal.
+
+**Systemerweiterung beim Update.** Ein Update darf das App-Bundle in
+`/Applications` nicht ersetzen, waehrend der Filter laeuft — das reisst die
+Systemerweiterung ab. Sparkle muss den Filter vorher sauber stoppen. Das ist
+der Unterschied zu jeder anderen App in diesem Repository.
+
 ## ship global, abweichend
 
 `ship global` ist eine Tauri-App und benutzt nicht Sparkle, sondern Tauris eigenen

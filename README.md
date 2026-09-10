@@ -129,6 +129,17 @@ dodge what the current throws at you, and get further than they did.
 
 </td>
 <td width="50%" valign="top">
+
+<!-- TODO: .github/assets/netmute.png (1200x630) fehlt noch, deshalb hier
+     vorerst kein Bild statt eines toten Bildlinks. -->
+
+### NetMute
+
+See where your Mac sends data. Every outgoing connection mapped to the app that
+made it, known tracker domains flagged, anything blocked with one click.
+
+[Mac App Store](https://apps.apple.com/app/id6759836552) · [Buy direct](https://www.netmute.com/buy) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=netmute)
+
 </td>
 </tr>
 </table>
