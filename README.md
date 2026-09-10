@@ -130,15 +130,15 @@ dodge what the current throws at you, and get further than they did.
 </td>
 <td width="50%" valign="top">
 
-<!-- TODO: .github/assets/netmute.png (1200x630) fehlt noch, deshalb hier
-     vorerst kein Bild statt eines toten Bildlinks. -->
+<a href="https://www.netmute.com"><img src=".github/assets/netmute.png" alt="NetMute"></a>
 
 ### NetMute
 
-See where your Mac sends data. Every outgoing connection mapped to the app that
-made it, known tracker domains flagged, anything blocked with one click.
+See where your Mac sends data, and hang up on it. Every outgoing connection is
+tied to the app that made it, tracker domains are flagged, and each app is
+graded on how it actually behaves on the network.
 
-[Mac App Store](https://apps.apple.com/app/id6759836552) · [Buy direct](https://www.netmute.com/buy) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=netmute)
+[macOS](https://www.balane.app/download/netmute) · [Mac App Store](https://apps.apple.com/app/id6759836552) · [All versions](https://github.com/JHBalane/Balane-Releases/releases?q=netmute)
 
 </td>
 </tr>
