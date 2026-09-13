@@ -29,7 +29,6 @@ Built in Munich by [Balane](https://www.balane.app).
 | Ask a human | [support@balane.tech](mailto:support@balane.tech) |
 | Understand how updates reach you | [Updates & Releases](https://github.com/JHBalane/Balane-Releases/wiki/Updates-and-Releases) |
 | Check a download is intact | [Verify your download](#verify-your-download) |
-| Publish a release yourself | [MAINTAINING.md](MAINTAINING.md) |
 
 ## The apps
 
@@ -182,8 +181,3 @@ certutil -hashfile FlowVisual-Setup-1.2.0.exe SHA256   # Windows
 
 If the sum does not match the release notes, do not run the file. Tell us at
 [Support](https://www.balane.app/en/support).
-
-## For maintainers
-
-Tag naming, per-app quirks, how balane.app resolves the stable download links,
-and the bug-tracking labels: [MAINTAINING.md](MAINTAINING.md).
