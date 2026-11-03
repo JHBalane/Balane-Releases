@@ -141,6 +141,25 @@ graded on how it actually behaves on the network.
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+<a href="https://www.balane.online/en"><img src=".github/assets/balane-office.png" alt="Balane Office"></a>
+
+### Balane Office
+
+Eight office apps built with AI: documents, spreadsheets, slides, forms, reports,
+mail, a content planner and a PDF tool. Free, no account, your files stay on your
+device. Early version.
+
+macOS: [Docs](https://github.com/JHBalane/Balane-Releases/releases/download/balanedocs-v1.0.0/BalaneDocs-1.0.0.dmg) · [Sheets](https://github.com/JHBalane/Balane-Releases/releases/download/balanesheets-v1.0.0/BalaneSheets-1.0.0.dmg) · [Slides](https://github.com/JHBalane/Balane-Releases/releases/download/balaneslides-v1.0.0/BalaneSlides-1.0.0.dmg) · [Forms](https://github.com/JHBalane/Balane-Releases/releases/download/balaneforms-v1.0.0/BalaneForms-1.0.0.dmg) · [Reports](https://github.com/JHBalane/Balane-Releases/releases/download/balanereports-v1.0.0/BalaneReports-1.0.0.dmg) · [Mail](https://github.com/JHBalane/Balane-Releases/releases/download/balanemail-v1.0.0/BalaneMail-1.0.0.dmg) · [Content Planner](https://github.com/JHBalane/Balane-Releases/releases/download/balanecontent-v1.0.0/BalaneContent-1.0.0.dmg) · [Paperwork](https://github.com/JHBalane/Balane-Releases/releases/download/balanepaperwork-v1.0.0/BalanePaperwork-1.0.0.dmg)
+
+Windows and Android: [Microsoft Store and Google Play](https://www.balane.online/en/download) · [All releases](https://github.com/JHBalane/Balane-Releases/releases)
+
+The Office apps don't update themselves yet. For a new version, download it again from here.
+
+</td>
+</tr>
 </table>
 
 ## Updates
