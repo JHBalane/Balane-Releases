@@ -158,6 +158,8 @@ Windows and Android: [Microsoft Store and Google Play](https://www.balane.online
 
 The Office apps don't update themselves yet. For a new version, download it again from here.
 
+Each Office release also carries `sbom.cdx.json`, a software bill of materials (CycloneDX 1.5) listing every package inside the app with its version and origin. Overview: [Security](https://www.balane.online/en/security).
+
 </td>
 </tr>
 </table>
@@ -190,8 +192,8 @@ explains what to include so the bug can actually be fixed.
 
 ## Verify your download
 
-Every release lists the SHA-256 sum of each file in its release notes. Compare
-after downloading:
+Every release lists the SHA-256 sum of each file in its release notes (Office
+releases also ship an SBOM, `sbom.cdx.json`). Compare after downloading:
 
 ```bash
 shasum -a 256 FlowVisual-1.2.0.dmg                     # macOS
